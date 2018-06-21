@@ -13,5 +13,3 @@ SceneManager._loadScene = function (SceneName) {
         }.bind(this));
     }
 };
-cc.WZL.SceneManager = SceneManager;
-module.exports = SceneManager;

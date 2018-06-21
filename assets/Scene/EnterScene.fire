@@ -373,9 +373,7 @@
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": false,
-    "_N$file": {
-      "__uuid__": "0695d837-a788-42e4-a07a-7e5d42e6bf95"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_N$string": "随机任务",
@@ -399,7 +397,7 @@
       "b": 0,
       "a": 255
     },
-    "_width": 2
+    "_width": 1
   },
   {
     "__type__": "cc.Sprite",
@@ -633,9 +631,7 @@
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": false,
-    "_N$file": {
-      "__uuid__": "0695d837-a788-42e4-a07a-7e5d42e6bf95"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_N$string": "扑克",
@@ -659,7 +655,7 @@
       "b": 0,
       "a": 255
     },
-    "_width": 2
+    "_width": 1
   },
   {
     "__type__": "cc.Sprite",

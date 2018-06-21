@@ -157,6 +157,11 @@
             <filename>common_unpack/ty_dikuang_boli.png</filename>
             <filename>common_unpack/ty_dikuang_zhanji33.png</filename>
             <filename>common_unpack/ty_guanbi.png</filename>
+            <filename>Dial/Finger.png</filename>
+            <filename>common_unpack/ty_anniu_huifang.png</filename>
+            <filename>common_unpack/ty_anniu_jiaru1.png</filename>
+            <filename>common_unpack/ty_anniu_jiaru2.png</filename>
+            <filename>common_unpack/ty_dian1.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
