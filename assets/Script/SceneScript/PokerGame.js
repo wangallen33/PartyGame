@@ -120,14 +120,27 @@ cc.Class({
     },
     pokerWord: function(pokerNum){
         this.wordArr = [
-            ""
+            "",
+            "指定一个人喝", "指定一个人喝", "指定一个人喝", "指定一个人喝",
+            "小姐牌，陪别人喝", "小姐牌，陪别人喝", "小姐牌，陪别人喝", "小姐牌，陪别人喝",
+            "逛三园游戏","逛三园游戏","逛三园游戏","逛三园游戏",
+            "猜拳",  "猜拳",  "猜拳",  "猜拳",
+            "照相机游戏","照相机游戏","照相机游戏","照相机游戏",
+            "摸鼻子","摸鼻子","摸鼻子","摸鼻子",
+            "PASS","PASS","PASS","PASS",
+            "对家喝", "对家喝", "对家喝", "对家喝",
+            "自己干杯", "自己干杯", "自己干杯", "自己干杯",
+            "神经病游戏",  "神经病游戏",  "神经病游戏",  "神经病游戏",
+            "上家喝",  "上家喝",  "上家喝",  "上家喝",
+            "下家喝","下家喝","下家喝","下家喝",
+            "第四张喝两杯","第四张喝两杯","第四张喝两杯","第四张喝两杯",
         ];
         if(this.plyaerPoint == 0){
-            var index  = 8;
+            var index  = this.playerNum;
         }else{
             var index  = this.plyaerPoint;
         }
-        return this.PlayerArr[index-1] + ":" + this.wordArr[0];
+        return this.PlayerArr[index-1] + ":" + this.wordArr[pokerNum];
     },
 
 });
